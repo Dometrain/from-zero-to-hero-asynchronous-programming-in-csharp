@@ -1,0 +1,38 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches: 
+      - "*"
+
+jobs:
+  BuildAllProjects:
+    runs-on: macos-15
+    steps:
+    - uses: actions/checkout@v4
+
+    # Install .NET SDK
+    - name: Setup .NET 9.0.x
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.x' # Adjust to your required .NET SDK version
+
+    - name: Install .NET MAUI
+      run: |
+        dotnet workload install maui
+        dotnet workload update
+
+    - name: Install Xcode
+      if: runner.os == 'macOS'
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+
+    - name: Display .NET Info
+      run: 'dotnet --info'
+
+    - name: Build "4. Async Await Best Practices"
+      run: dotnet build -c Release "./4. Async Await Best Practices/src/"

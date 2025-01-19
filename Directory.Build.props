@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <NoWarn>NETSDK1023</NoWarn>
+        <NetVersion>net9.0</NetVersion>
+        <LangVersion>preview</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <WarningsAsErrors>nullable</WarningsAsErrors>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+        <MauiStrictXamlCompilation>true</MauiStrictXamlCompilation>
+        <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+        <GenerateErrorForMissingTargetingPacks>false</GenerateErrorForMissingTargetingPacks>
+        <SkipValidateMauiImplicitPackageReferences>true</SkipValidateMauiImplicitPackageReferences>
+        <MauiEnableXamlCBindingWithSourceCompilation>true</MauiEnableXamlCBindingWithSourceCompilation>
+    </PropertyGroup>
+</Project>
