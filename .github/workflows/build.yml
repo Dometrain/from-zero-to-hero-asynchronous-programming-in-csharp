@@ -34,5 +34,5 @@ jobs:
     - name: Display .NET Info
       run: 'dotnet --info'
 
-    - name: Build "4. Async Await Best Practices"
-      run: dotnet build -c Release "./4. Async Await Best Practices/src/"
+    - name: Build "Async Await Best Practices"
+      run: dotnet build -c Release "./5. Async Await Best Practices/src/"
