@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/4. Async Await Best Practices/src/"
+    directory: "/5. Async Await Best Practices/src/"
     schedule:
       interval: "weekly"
