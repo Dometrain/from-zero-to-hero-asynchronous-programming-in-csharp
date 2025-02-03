@@ -4,4 +4,4 @@
 
 # From Zero to Hero: Asynchronous Programming in C#
 
-This repo contains all of the open-source samples used in the DomeTrain course "From Zero to Hero: Asynchronous Programming in C#
+This repo contains all of the open-source samples used in the [DomeTrain course "From Zero to Hero: Asynchronous Programming in C#](https://dometrain.com/course/from-zero-to-hero-asynchronous-programming-in-csharp/)
