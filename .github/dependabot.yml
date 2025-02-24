@@ -9,3 +9,7 @@ updates:
     directory: "/5. Async Await Best Practices/src/"
     schedule:
       interval: "weekly"
+- package-ecosystem: "dotnet-sdk"
+    directory: "/"
+    schedule:
+      interval: "weekly"
