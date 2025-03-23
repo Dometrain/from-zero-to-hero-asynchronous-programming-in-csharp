@@ -39,4 +39,4 @@ jobs:
       run: 'dotnet --info'
 
     - name: Build "Async Await Best Practices"
-      run: dotnet build -c Release "./5. Async Await Best Practices/src/"
+      run: dotnet build -c Release "./4. Async Await Best Practices/src/"
