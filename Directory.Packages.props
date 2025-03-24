@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="AsyncAwaitBestPractices.MVVM" Version="9.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.1.0" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.3.0" />
     <PackageVersion Include="Microsoft.Maui.Controls" Version="9.0.30" />
     <PackageVersion Include="CommunityToolkit.Maui" Version="11.1.0" />
     <PackageVersion Include="CommunityToolkit.Maui.Markup" Version="5.1.0" />
