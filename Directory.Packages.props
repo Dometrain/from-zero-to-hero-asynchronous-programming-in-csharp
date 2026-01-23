@@ -6,9 +6,9 @@
   <ItemGroup>
     <PackageVersion Include="AsyncAwaitBestPractices.MVVM" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.3.0" />
-    <PackageVersion Include="Microsoft.Maui.Controls" Version="9.0.50" />
+    <PackageVersion Include="Microsoft.Maui.Controls" Version="9.0.60" />
     <PackageVersion Include="CommunityToolkit.Maui" Version="11.1.0" />
-    <PackageVersion Include="CommunityToolkit.Maui.Markup" Version="5.1.0" />
+    <PackageVersion Include="CommunityToolkit.Maui.Markup" Version="6.0.1" />
     <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageVersion Include="Refit.HttpClientFactory" Version="8.0.0" />
   </ItemGroup>
