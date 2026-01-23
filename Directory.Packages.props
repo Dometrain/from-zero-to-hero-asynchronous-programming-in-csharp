@@ -4,7 +4,7 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="AsyncAwaitBestPractices.MVVM" Version="9.0.0" />
+    <PackageVersion Include="AsyncAwaitBestPractices.MVVM" Version="10.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.3.0" />
     <PackageVersion Include="Microsoft.Maui.Controls" Version="9.0.50" />
     <PackageVersion Include="CommunityToolkit.Maui" Version="11.1.0" />
