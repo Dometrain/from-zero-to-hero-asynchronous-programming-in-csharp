@@ -8,7 +8,7 @@ on:
     branches: 
       - "*"
 env:
-  Xcode_Version: '^26'
+  Xcode_Version: '^27'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -16,15 +16,15 @@ concurrency:
 
 jobs:
   BuildAsyncAwaitBestPractices:
-    runs-on: macos-26
+    runs-on: xcode-27
     steps:
     - uses: actions/checkout@v6
 
     # Install .NET SDK
-    - name: Setup .NET 10.0.x
+    - name: Setup .NET 11.0.x
       uses: actions/setup-dotnet@v5
       with:
-        dotnet-version: '10.x' # Adjust to your required .NET SDK version
+        dotnet-version: '11.x' # Adjust to your required .NET SDK version
 
     - name: Install .NET MAUI
       run: |
