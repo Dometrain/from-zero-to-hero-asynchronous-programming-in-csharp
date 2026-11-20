@@ -4,7 +4,6 @@ using Microsoft.Extensions.Http.Resilience;
 using Polly;
 using Refit;
 
-[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace HackerNews;
 
 public static class MauiProgram
@@ -31,7 +30,7 @@ public static class MauiProgram
 		builder.Services.AddSingleton(Browser.Default);
 		builder.Services.AddSingleton<HackerNewsAPIService>();
 
-		builder.Services.AddRefitClient<IHackerNewsAPI>()
+		builder.Services.AddRefitGeneratedClient<IHackerNewsAPI>()
 							.ConfigureHttpClient(client => client.BaseAddress = new Uri("https://hacker-news.firebaseio.com/v0"))
 							.AddStandardResilienceHandler(options => options.Retry = new MobileHttpRetryStrategyOptions());
 
